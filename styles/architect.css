@@ -1,4 +1,4 @@
-/* Work sans */
+/* Work sans google font*/
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Work+Sans:wght@400;600;700&display=swap");
 * {
   font-family: "Work Sans", sans-serif;
@@ -6,6 +6,14 @@
 
 /* shared styles */
 .btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
 }
 
 /* header styles */
@@ -52,4 +60,27 @@ nav li a {
 }
 .banner-description {
   color: #727272;
+}
+.banner img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* responsive media queries */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+  }
+  header {
+    padding: 50px;
+  }
 }
