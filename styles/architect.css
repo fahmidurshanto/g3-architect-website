@@ -15,6 +15,11 @@
   cursor: pointer;
   border: 0;
 }
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
 
 /* header styles */
 header {
@@ -40,11 +45,6 @@ nav li a {
   font-size: 1rem;
   color: #424242;
   text-decoration: none;
-}
-.nav-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #131313;
 }
 
 /* banner styles */
@@ -96,6 +96,29 @@ main {
 .text-features {
   color: #ff900e;
   font-weight: 700;
+}
+
+/* Facts section styles */
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 30px;
+}
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .card-title {
+  font-weight: 600;
+  color: #727272;
+  font-size: 1.25rem;
+}
+.facts-card-container .card-states {
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* responsive media queries */
